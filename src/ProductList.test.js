@@ -17,7 +17,8 @@ beforeEach ( () => {
     output =  shallow(
         <ProductList 
         onProductBuy={testingFn}
-        products={TEST_DATA}/>);
+        // products={TEST_DATA}
+        />);
 });
 
 it('renders products on the page', () => {

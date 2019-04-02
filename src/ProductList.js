@@ -12,9 +12,18 @@ const dataRender = productInfo.map(
     item => {return <li>{productInfo}</li>}
 )
 
-const ProductList = () => {
+const ProductList = ()  => {
     return <div>{dataRender}</div>
 }
+
+// class ProductList extends Component  {
+//     return () {
+//         <div>
+//         {this.props.products.map(p => <li>{p.name} : {p.price}</li>)}
+//         </div>
+//         <div>{dataRender}</div>
+//     }
+// }
 
 // class ProductList extends Component {
        
